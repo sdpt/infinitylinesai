@@ -1,1 +1,6 @@
-infinitylinesai.com
+cd /sdpt/infinitylinesai
+touch CNAME
+echo 'infinitylinesai.com' > CNAME
+git add CNAME
+git commit -m 'Added CNAME'
+git push origin master
